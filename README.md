@@ -60,6 +60,8 @@ but you should always verify this makes sense with the power network topology.
 See the [Developing Plugins](https://josm.openstreetmap.de/wiki/DevelopersGuide/DevelopingPlugins) guide.
 To build this plugin:
 
-* Copy a JOSM jar to `./lib/josm.jar`
 * `ant` will build the plugin.
 * `ant install` will attempt to install it to your JOSM plugins dir.
+
+If a `josm.jar` file is not present in the `lib` directory, the latest version will be downloaded
+automatically.

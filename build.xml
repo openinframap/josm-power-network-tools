@@ -7,7 +7,7 @@
 	<property name="plugin.images.dir" value="${basedir}/images" />
     <property name="plugin.jar" value="PowerNetworkTools.jar"/>
     <property name="plugin.version" value="development"/>
-    <property name="josm.lib" location="lib/josm.jar"/>
+    <property name="josm.lib" location="${plugin.lib.dir}/josm.jar"/>
     <property name="plugin.java-version" value="11"/>
 
 	<tstamp>
@@ -18,6 +18,8 @@
     	<delete dir="${plugin.build.dir}" />
         <mkdir dir="${plugin.build.dir}"/>
         <mkdir dir="${plugin.dist.dir}"/>
+        <mkdir dir="${plugin.lib.dir}"/>
+        <get src="https://josm.openstreetmap.de/josm-tested.jar" dest="${josm.lib}" skipexisting="true"/>
     </target>
 
     <target name="compile" depends="init">

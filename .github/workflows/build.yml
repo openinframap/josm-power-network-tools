@@ -18,9 +18,5 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Fetch JOSM jar
-      run: |
-        mkdir -p lib
-        curl -L -o lib/josm.jar https://josm.openstreetmap.de/josm-tested.jar
     - name: Build with Ant
       run: ant -noinput -buildfile build.xml
