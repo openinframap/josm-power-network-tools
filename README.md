@@ -1,4 +1,4 @@
-# JOSM Power Network Tools Plugin
+# JOSM Power Network Tools Plugin
 This is a plugin for the [JOSM OpenStreetMap editor](https://josm.openstreetmap.de/) to provide
 specialist power network mapping tools.
 
