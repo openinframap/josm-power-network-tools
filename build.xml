@@ -59,7 +59,7 @@
                 <attribute name="Plugin-Mainversion" value="18000"/>
                 <attribute name="Plugin-Name" value="Power Network Tools"/>
                 <attribute name="Plugin-Version" value="${plugin.version}"/>
-                <attribute name="Plugin-canloadatruntime" value="true"/>
+                <attribute name="Plugin-Canloadatruntime" value="true"/>
                 <attribute name="Plugin-Minimum-Java-Version" value="${plugin.java-version}"/>
             </manifest>
         </jar>
