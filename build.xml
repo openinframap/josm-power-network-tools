@@ -6,7 +6,7 @@
 	<property name="plugin.lib.dir" value="${basedir}/lib" />
 	<property name="plugin.images.dir" value="${basedir}/images" />
     <property name="plugin.jar" value="PowerNetworkTools.jar"/>
-    <property name="plugin.version" value="0.1.0"/>
+    <property name="plugin.version" value="0.1.1"/>
     <property name="josm.lib" location="${plugin.lib.dir}/josm.jar"/>
     <property name="plugin.java-version" value="11"/>
 
