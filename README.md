@@ -65,3 +65,6 @@ To build this plugin:
 
 If a `josm.jar` file is not present in the `lib` directory, the latest version will be downloaded
 automatically.
+
+### Releasing
+Change the version number in `build.xml` then push a `vx.y.z` tag. A release will be created.
