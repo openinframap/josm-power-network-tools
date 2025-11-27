@@ -37,6 +37,11 @@ voltages are mostly dictated by the size of birds rather than voltage and, notab
 substations worldwide appear to use a significantly higher clearance distance than would be predicted
 for that voltage level.
 
+Busbars can be made from solid tubes/bars, or from flexible power lines. Solid busbars are more common
+in modern substations. Clearance is generally higher for flexible busbars than for solid busbars, so 
+this tool will tend to under-estimate the voltage of a solid busbar, and over-estimate the voltage of
+a flexible busbar.
+
 ### Usage
 Identify a point in the substation where the three phases are spaced horizontally in a busbar or
 bay, insulated by air. Avoid transformer and circuit breaker bushings, which may also have some vertical
@@ -44,8 +49,8 @@ separation. If the separation of a voltage level varies, find the section with c
 while keeping in mind that some narrow parts may have vertical separation which isn't obvious.
 
 Enable voltage measurement mode by pressing the `v` key or selecting the voltage estimator tool from
-the edit toolbar. Use the tool to draw a line across the busbar, perpendicular to the direction of
-the conductors.
+the edit toolbar. Use the tool to draw a line across all three phases of the busbar, perpendicular
+to the direction of the conductors.
 
 <img src="./docs/images/measurement.png" width="500px">
 
